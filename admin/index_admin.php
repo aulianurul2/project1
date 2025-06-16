@@ -101,7 +101,7 @@ if ($res_total_menu) {
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>Dashboard</title>
+    <title>Dashboard 1</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700,900" rel="stylesheet" />
     <link href="../assets/css/sb-admin-2.min.css" rel="stylesheet" />
