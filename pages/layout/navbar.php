@@ -1,13 +1,13 @@
 <nav class="navbar">
   <a href="#" class="navbar-logo">
-    <img src="/projek1/assets/img/logof.jpg" alt="Logo TerraceA" style="height: 30px; vertical-align: middle;" />
+    <img src="../assets/img/logof.jpg" alt="Logo TerraceA" style="height: 30px; vertical-align: middle;" />
     Terrace<span>A</span>.
   </a>
   <div class="navbar-nav">
     <a href="../index.php#home">Beranda</a>
-    <a href="/projek1/pages/pilih_menu.php">Pilih Menu</a>
+    <a href="../pages/pilih_menu.php">Pilih Menu</a>
     <a href="../index.php#about">Tentang Kami</a> 
-   <a href="/projek1/pages/detail_pesanan.php">Riwayat Pesanan</a>
+   <a href="../pages/detail_pesanan.php">Riwayat Pesanan</a>
    <a>Meja: <?= isset($_SESSION['no_meja']) ? htmlspecialchars($_SESSION['no_meja']) : '-' ?></a>
 
   </div>

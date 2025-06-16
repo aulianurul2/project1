@@ -53,21 +53,21 @@ if (!isset($_SESSION['cart'])) {
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-somehash..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- My Style -->
-  <link rel="stylesheet" href="/projek1/assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
   <nav class="navbar">
   <a href="#" class="navbar-logo">
-    <img src="/projek1/assets/img/logof.jpg" alt="Logo TerraceA" style="height: 30px; vertical-align: middle;" />
+    <img src="assets/img/logof.jpg" alt="Logo TerraceA" style="height: 30px; vertical-align: middle;" />
     Terrace<span>A</span>.
   </a>
   <div class="navbar-nav">
     <a href="#home">Beranda</a>
-    <a href="/projek1/pages/pilih_menu.php">Pilih Menu</a>
+    <a href="pages/pilih_menu.php">Pilih Menu</a>
     <a href="#about">Tentang Kami</a>
-   <a href="/projek1/pages/detail_pesanan.php">Riwayat Pesanan</a>
+   <a href="pages/detail_pesanan.php">Riwayat Pesanan</a>
    <a>Meja: <?= isset($_SESSION['no_meja']) ? htmlspecialchars($_SESSION['no_meja']) : '-' ?></a>
 
   </div>

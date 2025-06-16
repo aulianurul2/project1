@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !isset($_POST['metode'])) {
 // Tampilkan isi keranjang
 $cart = $_SESSION['cart'] ?? [];
 if (empty($cart)) {
-  echo "<p style='text-align:center; padding:10px;'>Keranjang kosong.</p>";
+  // echo "<p style='text-align:center; padding:10px;'>Keranjang kosong.</p>";
   return;
 }
 
@@ -68,7 +68,7 @@ $grand_total = 0;
     <div class="cart-item" data-id="<?= $id ?>" style="display: flex; gap: 10px; margin-bottom: 10px; align-items:center;">
       <button class="btn-hapus" data-id="<?= $id ?>" style="cursor:pointer; background: crimson; color: white; border: none; border-radius: 4px; padding: 4px 6px;">🗑️</button>
 
-      <img src="/projek1/uploads/menu/<?= htmlspecialchars($produk['gambar']) ?>" alt="<?= htmlspecialchars($produk['nama_produk']) ?>" style="width: 60px; height: 60px; object-fit: cover; border-radius: 5px;">
+      <img src="../uploads/menu/<?= htmlspecialchars($produk['gambar']) ?>" alt="<?= htmlspecialchars($produk['nama_produk']) ?>" style="width: 60px; height: 60px; object-fit: cover; border-radius: 5px;">
       <div class="item-detail" style="flex-grow:1;">
         <strong><?= htmlspecialchars($produk['nama_produk']) ?></strong><br>
         <small>Harga: Rp <?= number_format($produk['harga']) ?></small><br>

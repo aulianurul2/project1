@@ -232,7 +232,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id_menu'])) {
   <script src="https://unpkg.com/feather-icons"></script>
 
   <!-- My Style -->
-  <link rel="stylesheet" href="/projek1/assets/css/style.css" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
 </head>
 <body>
 
@@ -290,7 +290,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['id_menu'])) {
   });
 </script>
 
-<script src="/projek1/assets/js/script.js"></script>
+<script src="../assets/js/script.js"></script>
 <script src="https://app.sandbox.midtrans.com/snap/snap.js" data-client-key="Mid-client-roIYIet_30f5wzP9"></script>
 
 </body>
